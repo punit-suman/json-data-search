@@ -1,11 +1,20 @@
 {
   "name": "json-data-search",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "search values in a json object; stringify values of a json object",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": {
+    "name" : "Punit Suman",
+    "email" : "punit.suman1707@gmail.com",
+    "url" : "https://punitsuman.com"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/punit-suman/json-data-search.git"
+  },
+  "keywords": ["json", "search", "stringify"]
 }
