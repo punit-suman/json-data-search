@@ -1,0 +1,11 @@
+{
+  "name": "json-data-search",
+  "version": "1.0.2",
+  "description": "search values in a json object; stringify values of a json object",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
