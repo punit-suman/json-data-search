@@ -54,7 +54,7 @@ function SearchValueInJSON(data, searchValue = '') {
                 }
             }
         }
-        return false
+        return false;
     }
     for (let j = 0; j < data.length; j++) {
         let d = data[j];
