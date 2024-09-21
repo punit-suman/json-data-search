@@ -2,7 +2,7 @@ function AllValuesToString(data) {
     const recur = (tempData) => {
         let temp = [];
         let t = Object.keys(tempData);
-        for(let i = 0; i < t.length;) {
+        for(let i = 0; i < t.length) {
             if (tempData[t[i]] == null) {
                 continue
             } else if (typeof tempData[t[i]] !== 'object') {
