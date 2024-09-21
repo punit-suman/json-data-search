@@ -2,7 +2,7 @@ function AllValuesToString(data) {
     const recur = (tempData) => {
         let temp = [];
         let t = Object.keys(tempData);
-        for(let i = 0; i < t.length; i++) {
+        for(let i = 0; i < t.lengt) {
             if (tempData[t[i]] == null) {
                 continue
             } else if (typeof tempData[t[i]] !== 'object') {
@@ -54,7 +54,7 @@ function SearchValueInJSON(data, searchValue = '') {
                 }
             }
         }
-        return false
+        return false;
     }
     for (let j = 0; j < data.length; j++) {
         let d = data[j];
